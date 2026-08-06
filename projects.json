@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rfid",
+    "title": "RFID Defect Analytics Dashboard",
+    "description": "End-to-end analytics dashboard integrating manufacturing defect data from CSV and REST API sources to monitor production quality in real time.",
+    "problem": "Quality teams lacked a unified, drill-down view of defect trends across products, production lines, and severity levels — decisions relied on manual spreadsheet checks.",
+    "tools": ["Python", "FastAPI", "Streamlit", "Pandas"],
+    "tags": ["python"],
+    "insights": [
+      "Applied Linear Regression, Z-score anomaly detection, and Chi-square tests to flag abnormal months and validate defect-location/severity relationships",
+      "Surfaced high-risk production lines and dominant defect categories to speed up quality-control decisions"
+    ],
+    "github": "https://github.com/trongnghia1123/Case-Study-DA-",
+    "demo": "",
+    "image": "assets/project-demo/rfid-defect.svg"
+  },
+  {
+    "id": "iqvia",
+    "title": "IQVIA Pharmaceutical Market Analysis",
+    "description": "Interactive Power BI dashboard analyzing the pharmaceutical market from 62,098 therapeutic products across 2019–2022.",
+    "problem": "Raw therapeutic-product exports were too granular and inconsistent by sales channel/year to compare market trends at a glance.",
+    "tools": ["Excel", "Power BI", "Power Query", "DAX"],
+    "tags": ["excel", "powerbi"],
+    "insights": [
+      "ETL via Power Query transformed 62,098 rows into a ~500,000-row analysis model",
+      "Retail channel accounts for ~60% of sales with continuous growth 2019–2022; Hospital channel recovered after a 2021 decline"
+    ],
+    "github": "https://github.com/trongnghia1123/IQVA-Analysis.git",
+    "demo": "",
+    "image": "assets/project-demo/iqvia.svg"
+  },
+  {
+    "id": "djia",
+    "title": "DJIA Stock Market Analysis",
+    "description": "Fact-dimension PostgreSQL data model analyzing DJIA stock prices and company fundamentals from 2023–2026 to compare sector performance.",
+    "problem": "Yahoo Finance exports needed a proper relational structure before they could support repeatable sector-level comparisons and screening.",
+    "tools": ["Python", "SQL", "PostgreSQL", "Jupyter Notebook", "Matplotlib", "Seaborn"],
+    "tags": ["python", "sql"],
+    "insights": [
+      "Designed fact_stock_price / dim_company model and loaded data via SQLAlchemy",
+      "Technology sector leads in market cap; Financial Services records the highest average closing price; flagged near-52-week-low stocks as value watch-list candidates"
+    ],
+    "github": "https://github.com/trongnghia1123/DJIA-stock-analysis",
+    "demo": "",
+    "image": "assets/project-demo/djia.svg"
+  },
+  {
+    "id": "mcdonalds",
+    "title": "McDonald's Menu Nutrition Analysis",
+    "description": "Interactive Power BI dashboard analyzing nutritional data across all McDonald's menu categories.",
+    "problem": "Menu nutrition data had no easy way to compare healthiness across categories or recommend lower-calorie choices per meal type.",
+    "tools": ["Power BI", "Power Query", "DAX", "Python"],
+    "tags": ["powerbi", "python"],
+    "insights": [
+      "Built DAX measures for per-category averages and healthiness scores",
+      "Dashboard recommends lower-calorie options per meal type"
+    ],
+    "github": "https://github.com/trongnghia1123/McDonald-s-Menu-Nutrition-Analysis",
+    "demo": "",
+    "image": "assets/project-demo/mcdonalds.svg"
+  }
+]

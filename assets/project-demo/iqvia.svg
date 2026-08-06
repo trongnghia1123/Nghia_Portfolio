@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#394BA1"/>
+      <stop offset="100%" stop-color="#3991DC"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="360" fill="url(#g)"/>
+  <rect width="600" height="360" fill="url(#grid)"/>
+  <g opacity="0.9">
+    <rect x="60" y="220" width="40" height="90" fill="#ffffff"/>
+    <rect x="120" y="180" width="40" height="130" fill="#ffffff" opacity="0.85"/>
+    <rect x="180" y="140" width="40" height="170" fill="#ffffff" opacity="0.7"/>
+    <rect x="240" y="200" width="40" height="110" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <text x="300" y="60" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="700" font-size="22" fill="#ffffff">IQVIA Market Analysis</text>
+  <text x="300" y="340" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="13" fill="#ffffff" opacity="0.85">REPLACE: project screenshot</text>
+</svg>

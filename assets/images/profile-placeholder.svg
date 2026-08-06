@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3991DC"/>
+      <stop offset="100%" stop-color="#394BA1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="200" cy="160" r="70" fill="#ffffff" opacity="0.9"/>
+  <path d="M60 360 Q200 230 340 360 Z" fill="#ffffff" opacity="0.9"/>
+  <text x="200" y="390" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="14" fill="#ffffff" opacity="0.85">REPLACE: profile photo</text>
+</svg>
