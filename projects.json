@@ -1,5 +1,40 @@
 [
   {
+    "id": "sales",
+    "title": "Supermarket Sales Customer Analytics Dashboard",
+    "description": "An end-to-end retail sales analysis project that transforms 1,000 transactions into actionable business insights using EDA, ETL, Star Schema data modeling, and an interactive Power BI dashboard.",
+    "problem": "The business needs a clear view of sales performance, customer behavior, product performance, peak purchasing periods, and customer satisfaction in order to identify performance patterns and support data-driven business decisions.",
+    "tools": [
+      "Excel",
+      "Power Query",
+      "Power BI",
+      "DAX",
+      "ETL",
+      "Star Schema"
+    ],
+    "tags": [
+      "power-bi",
+      "excel",
+      "power-query",
+      "dax",
+      "data-analysis",
+      "data-modeling",
+      "retail",
+      "etl"
+    ],
+    "insights": [
+      "Total sales reached approximately $322,967 from 1,000 transactions, with an average invoice value of about $322.97.",
+      "January recorded the highest monthly sales at approximately $116K, while February had the lowest at approximately $97K before recovering in March.",
+      "19:00 was the strongest sales hour at approximately $40K, followed by 13:00 at approximately $35K, indicating important peak purchasing periods.",
+      "Food and Beverages was the highest-selling product line at approximately $56K, while overall sales were relatively evenly distributed across product categories.",
+      "Product preferences varied across cities, suggesting opportunities for localized product and marketing strategies.",
+      "Da Nang recorded the lowest average customer rating at approximately 6.82 out of 10, while Home and Lifestyle showed a relatively high concentration of lower ratings and warrants further investigation."
+    ],
+    "github": "https://github.com/trongnghia1123/Supermarket-Sales-Customer-Analytics-Dashboard.git",
+    "demo": "",
+    "image": "assets/project-demo/IQVA.png"
+  },
+  {
     "id": "rfid",
     "title": "RFID Defect Analytics Dashboard",
     "description": "End-to-end analytics dashboard integrating manufacturing defect data from CSV and REST API sources to monitor production quality in real time.",
@@ -19,8 +54,8 @@
     "title": "IQVIA Pharmaceutical Market Analysis",
     "description": "Interactive Power BI dashboard analyzing the pharmaceutical market from 62,098 therapeutic products across 2019–2022.",
     "problem": "Raw therapeutic-product exports were too granular and inconsistent by sales channel/year to compare market trends at a glance.",
-    "tools": ["Excel", "Power BI", "Power Query", "DAX"],
-    "tags": ["excel", "powerbi"],
+    "tools": ["Excel", "Power BI", "Power Query", "DAX","ETL"],
+    "tags": ["excel", "powerbi","etl"],
     "insights": [
       "ETL via Power Query transformed 62,098 rows into a ~500,000-row analysis model",
       "Retail channel accounts for ~60% of sales with continuous growth 2019–2022; Hospital channel recovered after a 2021 decline"
@@ -34,8 +69,8 @@
     "title": "DJIA Stock Market Analysis",
     "description": "Fact-dimension PostgreSQL data model analyzing DJIA stock prices and company fundamentals from 2023–2026 to compare sector performance.",
     "problem": "Yahoo Finance exports needed a proper relational structure before they could support repeatable sector-level comparisons and screening.",
-    "tools": ["Python", "SQL", "PostgreSQL", "Jupyter Notebook", "Matplotlib", "Seaborn"],
-    "tags": ["python", "sql"],
+    "tools": ["Python", "SQL", "PostgreSQL", "Jupyter Notebook", "Matplotlib", "Seaborn","ETL"],
+    "tags": ["python", "sql","etl"],
     "insights": [
       "Designed fact_stock_price / dim_company model and loaded data via SQLAlchemy",
       "Technology sector leads in market cap; Financial Services records the highest average closing price; flagged near-52-week-low stocks as value watch-list candidates"
@@ -50,7 +85,7 @@
     "description": "Interactive Power BI dashboard analyzing nutritional data across all McDonald's menu categories.",
     "problem": "Menu nutrition data had no easy way to compare healthiness across categories or recommend lower-calorie choices per meal type.",
     "tools": ["Power BI", "Power Query", "DAX", "Python"],
-    "tags": ["powerbi", "python"],
+    "tags": ["powerbi", "python","etl"],
     "insights": [
       "Built DAX measures for per-category averages and healthiness scores",
       "Dashboard recommends lower-calorie options per meal type"
