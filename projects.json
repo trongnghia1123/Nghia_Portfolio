@@ -12,7 +12,7 @@
     ],
     "github": "https://github.com/trongnghia1123/Case-Study-DA-",
     "demo": "",
-    "image": "assets/project-demo/rfid-defect.svg"
+    "image": "assets/project-demo/RFID (2).png"
   },
   {
     "id": "iqvia",
@@ -27,7 +27,7 @@
     ],
     "github": "https://github.com/trongnghia1123/IQVA-Analysis.git",
     "demo": "",
-    "image": "assets/project-demo/iqvia.svg"
+    "image": "assets/project-demo/IQVA.png"
   },
   {
     "id": "djia",
@@ -42,7 +42,7 @@
     ],
     "github": "https://github.com/trongnghia1123/DJIA-stock-analysis",
     "demo": "",
-    "image": "assets/project-demo/djia.svg"
+    "image": "assets/project-demo/djia.png"
   },
   {
     "id": "mcdonalds",
@@ -57,6 +57,6 @@
     ],
     "github": "https://github.com/trongnghia1123/McDonald-s-Menu-Nutrition-Analysis",
     "demo": "",
-    "image": "assets/project-demo/mcdonalds.svg"
+    "image": "assets/project-demo/Mc_Donalds.png"
   }
 ]
